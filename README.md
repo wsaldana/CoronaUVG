@@ -1,44 +1,28 @@
-# CoronaUVG
-Carlos Raxtum 19721
-Walter Saldaña 19
-Abraham Gutierrez 19
+# CoronaUVG 😷 🧻
 
-## Instrucciones del uso
-Ejecutar la escena Inicio Juego para iniciar el mismo
+¡Salva al CIT de la pandemia del Coronavirus! La universidad completa (y tu graduación) dependen únicamente de tí.
+Los estudiantes de computación han adaptado un rifle de asalto para que dispare balas hechas a base de una composición especial de alcohol en gel.
+Esta arma es capaz de neutralizar a los contagiados que estorban en tu camino.
 
-## Base de datos
-El archivo base_datos.csv contiene una base de datos con canciones, sus artistas, el género de cada una, el disco,
-la duracion y el año en que cada cancion fue lanzada.
+## Objetivos 🎯 
+* Encontrar una cura para el coronavirus
+* Derrotar al Corona-Boss
+* Salvar al CIT
 
-## Aspectos Relevantes para el funcionamiento del sistema
-### Dependencias necesarias para el funcionamiento del programa
-pandas, sklearn, numpy, matplotlib, seaborn, neo4j, networkx
+## Controles 🎮
+Acción  | Control
+------------- | -------------
+Caminar  | WASD o Flechas
+Saltar | Space
+Correr | Caminar + Shift
+Disparar  | Clk izq
+Apuntar | Clk der
+Recargar | R
+Guardar arma | E
+Pausa | ESC
 
-### Clase base de datos
-Dentro del archivo ClaseBaseDeDatosMusica.py leer el archivo .csv con pandas
-```
-class BaseMusica:
-    data = pd.read_csv('base_datos.csv',header=0)
-    tfidf = TfidfVectorizer()
-    tfidf_matrix = tfidf.fit_transform(data['Genero'])
-    cosine_sim = linear_kernel(tfidf_matrix, tfidf_matrix)
-    indices = pd.Series(data.index, index=data['Cancion']).drop_duplicates()
-    
-```
-### Para cargar el programa es necesario importar los siguientes paquetes
-Dentro del archivo ClaseBaseDeDatosMusica.py
-```
-import pandas as pd 
-import numpy as np  
-
-from sklearn import tree
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.model_selection import train_test_split
-
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import linear_kernel
-
-from matplotlib import pyplot as plt
-import seaborn as sns
-    
-```
+## Misiones 🕹
+* Deberás de recolectar los materiales necesarios para fabricar una cura. Con suerte todos se encuentran dentro del CIT.
+* Luego deberas de enfrentarte al jefe coronavirus. Pero ojo, no le podrás hacer daño hasta tener la cura fabricada.
+* Para fabricar la cura, debes buscar una mesa de trabajo en el maker-space del CIT y poner a prueba tus conocimientos de ciencias de la vida y química del primer semestre.
+* Una vez tengas la cura y hayas derrotado al grandulón, habrás ganado, y más importante, ¡Te habrás graduado!
