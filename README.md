@@ -1,9 +1,8 @@
 # CoronaUVG
-
+Instrucciones del uso
 
 ## Overview
-Este código pertenece a un sistema de recomendacion musical. El sistema se fija en aspectos como el género y el idioma para
-lograr un filtrado exitoso en las recomendaciones.
+Ejecutar la escena Inicio Juego para iniciar el mismo
 
 ## Base de datos
 El archivo base_datos.csv contiene una base de datos con canciones, sus artistas, el género de cada una, el disco,
