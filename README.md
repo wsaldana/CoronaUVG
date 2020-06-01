@@ -1,26 +1,14 @@
 # CoronaUVG
-Instrucciones del uso
+Carlos Raxtum 19721
+Walter Saldaña 19
+Abraham Gutierrez 19
 
-## Overview
+## Instrucciones del uso
 Ejecutar la escena Inicio Juego para iniciar el mismo
 
 ## Base de datos
 El archivo base_datos.csv contiene una base de datos con canciones, sus artistas, el género de cada una, el disco,
 la duracion y el año en que cada cancion fue lanzada.
-
-## Contacto con la base de datos
-El archivo ClaseBaseDeDatosMusica.py contiene las funciones para poder leer el archivo base_datos.csv y de esta manera 
-efectuar las operaciones tales como recomendar, mostrar y eliminar cancion.
-```
-class BaseMusica:
-    ***
-    data = pd.read_csv('base_datos.csv',header=0)
-    ***
-    def RecomendarCancion(self,title, cosine_sim=cosine_sim)
-    def MostrarInfo(self)
-    def EliminarCancion(self)
-    
-```
 
 ## Aspectos Relevantes para el funcionamiento del sistema
 ### Dependencias necesarias para el funcionamiento del programa
