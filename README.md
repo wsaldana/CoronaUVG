@@ -42,9 +42,3 @@ from matplotlib import pyplot as plt
 import seaborn as sns
     
 ```
-Dentro del archivo Grafo.py
-```
-import networkx as nx
-import matplotlib.pyplot as plt
-    
-```
